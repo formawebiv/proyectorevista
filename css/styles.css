@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+@font-face {     
+    font-family: 'Chakie';      
+    src: url(../fonts/chakie/Chakie.ttf)
+}
+
+body{
+    background-color: black;
+    /*background-image: url("../img/bkgtrars.jpg") ;
+    background-image: 100%; */
+    
+    
+}
+
+header{
+    text-align: center;
+    color: rgb(185, 143, 36);
+}
+
+h1{
+    font-family: 'Chakie';
+    font-size: 150%;
+    padding: 2%;
+}
+
+h2{
+    font-family: 'Sriracha';
+    font-size: 200%;
+}
+
+#juan{
+    font-family: 'Chakie';
+    font-size: 400%;
+    font-weight: initial;
+}
+
+main{
+    position: relative;
+}
+
+.parrafo1{
+    display: inline-block;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 2%;
+    padding-right: 1%;
+    max-width: 45%;
+}
+
+.parrafo2{
+    display: inline-block;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-right: 2%;
+    padding-left: 1%;
+    max-width: 45%;
+    position: relative;
+    float: right;
+}
+
+p{
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+    padding: 2%;
+    text-align: justify;
+}
+
+ol {
+    list-style: outside;
+    list-style-type: decimal;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+    padding: 2%;
+    padding-left: 6%;
+}
+
+h3{
+    font-family: 'Sriracha';
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(185, 143, 36);
+    padding: 2%;
+}
+
+.precios{
+    color: white;
+    display: inline-block;
+    text-align: center;
+    padding: 2%;
+    margin: 2%;
+    margin-left: 3%;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+
+#portadalibro{
+    width: 70%;
+    padding-left: 13%;
+    padding-bottom: 3%;
+}
+
+#peninsula{
+    padding-left: 25%;
+}
+
+#ebook{
+    background-color: rgb(171, 235, 45);
+    color: black;
+    border-radius: 15pt;
+    width: 13%;
+}
+
+span{
+    font-weight: bold;
+}
+
+#divarroba{
+    position: absolute;
+    right: 0;
+    transform: rotate(270deg);
+
+}
+
+#arroba{
+    width: 80px;
+    display: inline-block;
+}
+
+footer{
+    text-align: right;
+    padding: 4%;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
